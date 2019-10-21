@@ -1,0 +1,21 @@
+<h1 class="text-color">{{message}}</h1>
+<h2 [class]="textColor">{{message}}</h2>
+<h3 [ngClass]="['textColor','textBgColor']">{{message}}</h3>
+<h3 [ngClass]="greetingStyle">{{message}}</h3>
+<h6 [ngClass]="{'text-color':'red'}">{{msg}}</h6>
+
+
+<div id="myDiv">
+ <hr>
+ <h1>{{msg1}}</h1>
+
+<button  class="btn btn-info" (click)="toggleColor1()">Click here</button>
+
+</div>
+
+<button (click)="sayGreet($event)">Greet</button>
+
+<h1 class="text-color">{{message|uppercase}}</h1>
+<h1 class="text-color">{{message|titlecase}}</h1>
+
+<h2 appColor>{{message}}</h2>

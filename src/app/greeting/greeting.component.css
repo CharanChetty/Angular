@@ -1,0 +1,16 @@
+.text-color{
+    color: coral;
+}
+.text-col{
+    color:lawngreen;
+}
+.text-bgcolor{
+    background-color:rgb(210, 30, 180);
+}
+.toggle {
+   background-color: darkorchid; 
+}
+
+.toggle2{
+    background-color:chartreuse; 
+ }

@@ -1,0 +1,7 @@
+<ngb-datepicker (select)="onSelect($event)"></ngb-datepicker>
+<h3>{{date|json}}</h3>
+<div *ngIf="date">
+<h3>{{date.day}}</h3>
+<h3>{{date.month}}</h3>
+<h3>{{date.year}}</h3>
+</div>

@@ -1,0 +1,6 @@
+[
+    {"productId":5001,"name":"mobile","brand":"vivo","price":17000},
+    {"productId":5002,"name":"Tv","brand":"sony","price":45000},
+    {"productId":5003,"name":"laptop","brand":"HP","price":52000}, 
+    {"productId":5004,"name":"laptop","brand":"HP","price":52000}
+]
